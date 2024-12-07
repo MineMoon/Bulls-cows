@@ -1,6 +1,27 @@
 ﻿#include <string>
 #include <iostream>
 
+void countBullsAndCows(std::string secret, std::string guess, int& bulls, int& cows) {
+	bulls = 0;
+	cows = 0;
+
+	//Подсчет быков
+	for (int i = 0; i < secret.length(); i++) {
+		if (guess[i] == secret[i]) {
+			bulls++;
+		}
+	}
+
+	//Подсчет коров
+	for (int i = 0; i < secret.length(); i++) {
+		for (int j = 0; j < secret.length(); j++) {
+			if (i != j && guess[i] == secret[j]) {
+				cows++;
+			}
+		}
+	}
+}
+
 int main() {
 	int length = 4; // Длина загаданного числа
 	/*std::string number = generatNumber(length);*/ //Сделать функцию генерации 4-х значного числа, состоящего из уникальных чисел, возращать в int
