@@ -47,7 +47,7 @@ int main() {
 		}
 
 		++attempts;
-		/*countBullsAndCows(secret, guess, bulls, cows);*/ //Сделать функцию подсчета коров, возращать в int
+		countBullsAndCows(secret, guess, bulls, cows); //Функция подсчета коров и быков
 		std::cout << "Быки: " << bulls << ", Коровы: " << cows << std::endl;
 
 		if (bulls == length) {
