@@ -1,9 +1,30 @@
 ﻿#include <string>
 #include <iostream>
+#include <set>
+
+int check_input(std::string s) {
+	std::set<char> numbers;
+	if (s.size() != 4) {
+		return 1;
+	}
+	if (s[0] == '0') {
+		return 2;
+	}
+	for (int i = 0; i < s.size(); i++){
+		if ((int)s[i] < 48 || (int)s[i] > 57) {
+			return 3;
+		}
+		numbers.insert(s[i]);
+	}
+	if (numbers.size() != 4) {
+		return 4;
+	}
+	return 0;
+}
 
 int main() {
 	int length = 4; // Длина загаданного числа
-	/*std::string number = generatNumber(length);*/ //Сделать функцию генерации 4-х значного числа, состоящего из уникальных чисел, возращать в int
+	/*std::string number = generateNumber(length);*/ //Сделать функцию генерации 4-х значного числа, состоящего из уникальных чисел, возращать в int
 
 	std::cout << "Добро пожаловать в игру 'Быки и коровы'!" << std::endl;
 	std::cout << "Компьютер загадал число из " << length << " уникальных цифр." << std::endl;
@@ -19,6 +40,7 @@ int main() {
 	while (bulls != length) {
 		std::cout << "Введите ваше предположение: ";
 		std::cin >> guess; // Добавить проверки на дурака
+
 
 		if (guess.length() != length) {
 			std::cout << "Число должно быть длиной " << length << " цифр. Попробуйте снова." << std::endl;
