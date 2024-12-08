@@ -1,5 +1,20 @@
-﻿#include <string>
-#include <iostream>
+﻿#include <iostream>
+#include <random>
+#include <string>
+#include <cstdlib>
+#include <time.h>
+
+
+std::string Random() {
+	srand(time(NULL));
+	std::string digit;
+	while (digit.size() != 4) {
+		char temp = '0' + rand() % 10;
+		if (digit.find(temp) == std::string::npos)
+			digit += temp;
+	}
+	return digit;
+}
 
 int main() {
 	int length = 4; // Длина загаданного числа
