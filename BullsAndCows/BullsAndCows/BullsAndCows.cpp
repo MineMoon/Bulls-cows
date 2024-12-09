@@ -1,21 +1,21 @@
 ﻿#include <string>
 #include <iostream>
 
-void countBullsAndCows(std::string secret, std::string guess, int& bulls, int& cows) {
+void countBullsAndCows(std::string number, std::string guess, int& bulls, int& cows) {
 	bulls = 0;
 	cows = 0;
 
 	//Подсчет быков
-	for (int i = 0; i < secret.length(); i++) {
-		if (guess[i] == secret[i]) {
+	for (int i = 0; i < number.length(); i++) {
+		if (guess[i] == number[i]) {
 			bulls++;
 		}
 	}
 
 	//Подсчет коров
-	for (int i = 0; i < secret.length(); i++) {
-		for (int j = 0; j < secret.length(); j++) {
-			if (i != j && guess[i] == secret[j]) {
+	for (int i = 0; i < number.length(); i++) {
+		for (int j = 0; j < number.length(); j++) {
+			if (i != j && guess[i] == number[j]) {
 				cows++;
 			}
 		}
@@ -47,7 +47,7 @@ int main() {
 		}
 
 		++attempts;
-		countBullsAndCows(secret, guess, bulls, cows); //Функция подсчета коров и быков
+		countBullsAndCows(number, guess, bulls, cows); //Функция подсчета коров и быков
 		std::cout << "Быки: " << bulls << ", Коровы: " << cows << std::endl;
 
 		if (bulls == length) {
