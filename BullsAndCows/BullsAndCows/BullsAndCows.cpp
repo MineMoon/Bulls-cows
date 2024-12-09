@@ -23,6 +23,27 @@ int check_input(std::string s) {
 	return 0;
 }
 
+void countBullsAndCows(std::string secret, std::string guess, int& bulls, int& cows) {
+	bulls = 0;
+	cows = 0;
+
+	//Подсчет быков
+	for (int i = 0; i < secret.length(); i++) {
+		if (guess[i] == secret[i]) {
+			bulls++;
+		}
+	}
+
+	//Подсчет коров
+	for (int i = 0; i < secret.length(); i++) {
+		for (int j = 0; j < secret.length(); j++) {
+			if (i != j && guess[i] == secret[j]) {
+				cows++;
+			}
+		}
+	}
+}
+
 int main() {
 	setlocale(LC_ALL, "Russian");
 	SetConsoleCP(1251);
@@ -66,7 +87,7 @@ int main() {
 		}
 
 		++attempts;
-		/*countBullsAndCows(secret, guess, bulls, cows);*/ //Сделать функцию подсчета коров, возращать в int
+		countBullsAndCows(secret, guess, bulls, cows); //Функция подсчета коров и быков
 		std::cout << "Быки: " << bulls << ", Коровы: " << cows << std::endl;
 
 		if (bulls == length) {
