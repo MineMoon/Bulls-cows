@@ -1,2 +1,6 @@
 ﻿  BullsAndCows.cpp
-  BullsAndCows.vcxproj -> C:\Users\Misha\Desktop\BullsAndCows\BullsAndCows\x64\Debug\BullsAndCows.exe
+  add.cpp
+C:\Users\Misha\Desktop\Bulls\BullsAndCows\BullsAndCows\BullsAndCows.cpp(8,9): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\Misha\Desktop\Bulls\BullsAndCows\BullsAndCows\add.cpp(49,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Создание кода...
+  BullsAndCows.vcxproj -> C:\Users\Misha\Desktop\Bulls\BullsAndCows\x64\Debug\BullsAndCows.exe

@@ -47,9 +47,14 @@ void countBullsAndCows(std::string secret, std::string guess, int& bulls, int& c
 
 std::string Random() {
 	srand(time(NULL));
-	std::string digit;
+	std::string digit="";
 	while (digit.size() != 4) {
 		char temp = '0' + rand() % 10;
+		if (temp == '0' && digit.size() == 0) {
+			while (!(temp == '0')) {
+				temp = '0' + rand() % 10;
+			}
+		}
 		if (digit.find(temp) == std::string::npos)
 			digit += temp;
 	}
