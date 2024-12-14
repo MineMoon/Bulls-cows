@@ -23,7 +23,7 @@ int main() {
 	std::cin >> choice;
 
 	if (choice == 1) {
-		std::string number = Random();
+		number = Random();
 	}
 	else {
 		std::cout << "Загадайте число из 4 уникальных цифр: ";
