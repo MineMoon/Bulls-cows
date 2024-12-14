@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Misha\\Desktop\\Bulls\\BullsAndCows\\",
+  "WorkspaceRootPath": "C:\\Users\\\u0410\u043D\u0430\u0441\u0442\u0430\u0441\u0438\u044F\\Desktop\\rep\\BullsAndCows\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E4E821C8-6B2E-48BE-BE1B-1133560C0095}|BullsAndCows\\BullsAndCows.vcxproj|C:\\Users\\Misha\\Desktop\\Bulls\\BullsAndCows\\BullsAndCows\\add.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E4E821C8-6B2E-48BE-BE1B-1133560C0095}|BullsAndCows\\BullsAndCows.vcxproj|solutionrelative:BullsAndCows\\add.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{E4E821C8-6B2E-48BE-BE1B-1133560C0095}|BullsAndCows\\BullsAndCows.vcxproj|C:\\Users\\\u0410\u043D\u0430\u0441\u0442\u0430\u0441\u0438\u044F\\Desktop\\rep\\BullsAndCows\\BullsAndCows\\BullsAndCows.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E4E821C8-6B2E-48BE-BE1B-1133560C0095}|BullsAndCows\\BullsAndCows.vcxproj|solutionrelative:BullsAndCows\\BullsAndCows.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4E821C8-6B2E-48BE-BE1B-1133560C0095}|BullsAndCows\\BullsAndCows.vcxproj|C:\\Users\\Misha\\Desktop\\Bulls\\BullsAndCows\\BullsAndCows\\BullsAndCows.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{E4E821C8-6B2E-48BE-BE1B-1133560C0095}|BullsAndCows\\BullsAndCows.vcxproj|solutionrelative:BullsAndCows\\BullsAndCows.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{E4E821C8-6B2E-48BE-BE1B-1133560C0095}|BullsAndCows\\BullsAndCows.vcxproj|C:\\Users\\\u0410\u043D\u0430\u0441\u0442\u0430\u0441\u0438\u044F\\Desktop\\rep\\BullsAndCows\\BullsAndCows\\add.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E4E821C8-6B2E-48BE-BE1B-1133560C0095}|BullsAndCows\\BullsAndCows.vcxproj|solutionrelative:BullsAndCows\\add.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E4E821C8-6B2E-48BE-BE1B-1133560C0095}|BullsAndCows\\BullsAndCows.vcxproj|C:\\Users\\\u0410\u043D\u0430\u0441\u0442\u0430\u0441\u0438\u044F\\Desktop\\rep\\BullsAndCows\\BullsAndCows\\add.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E4E821C8-6B2E-48BE-BE1B-1133560C0095}|BullsAndCows\\BullsAndCows.vcxproj|solutionrelative:BullsAndCows\\add.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,36 +22,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "add.h",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0441\u0442\u0430\u0441\u0438\u044F\\Desktop\\rep\\BullsAndCows\\BullsAndCows\\add.h",
+              "RelativeDocumentMoniker": "BullsAndCows\\add.h",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0441\u0442\u0430\u0441\u0438\u044F\\Desktop\\rep\\BullsAndCows\\BullsAndCows\\add.h",
+              "RelativeToolTip": "BullsAndCows\\add.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-14T09:43:15.943Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "add.cpp",
-              "DocumentMoniker": "C:\\Users\\Misha\\Desktop\\Bulls\\BullsAndCows\\BullsAndCows\\add.cpp",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0441\u0442\u0430\u0441\u0438\u044F\\Desktop\\rep\\BullsAndCows\\BullsAndCows\\add.cpp",
               "RelativeDocumentMoniker": "BullsAndCows\\add.cpp",
-              "ToolTip": "C:\\Users\\Misha\\Desktop\\Bulls\\BullsAndCows\\BullsAndCows\\add.cpp",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0441\u0442\u0430\u0441\u0438\u044F\\Desktop\\rep\\BullsAndCows\\BullsAndCows\\add.cpp",
               "RelativeToolTip": "BullsAndCows\\add.cpp",
-              "ViewState": "AgIAACsAAAAAAAAAAAAcwDsAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-10T13:55:00.214Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "BullsAndCows.cpp",
-              "DocumentMoniker": "C:\\Users\\Misha\\Desktop\\Bulls\\BullsAndCows\\BullsAndCows\\BullsAndCows.cpp",
+              "DocumentMoniker": "C:\\Users\\\u0410\u043D\u0430\u0441\u0442\u0430\u0441\u0438\u044F\\Desktop\\rep\\BullsAndCows\\BullsAndCows\\BullsAndCows.cpp",
               "RelativeDocumentMoniker": "BullsAndCows\\BullsAndCows.cpp",
-              "ToolTip": "C:\\Users\\Misha\\Desktop\\Bulls\\BullsAndCows\\BullsAndCows\\BullsAndCows.cpp",
+              "ToolTip": "C:\\Users\\\u0410\u043D\u0430\u0441\u0442\u0430\u0441\u0438\u044F\\Desktop\\rep\\BullsAndCows\\BullsAndCows\\BullsAndCows.cpp",
               "RelativeToolTip": "BullsAndCows\\BullsAndCows.cpp",
-              "ViewState": "AgIAABcAAAAAAAAAAAAuwDYAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBUAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-07T10:31:07.382Z"
+              "WhenOpened": "2024-12-07T10:31:07.382Z",
+              "EditorCaption": ""
             }
           ]
         }
